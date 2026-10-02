@@ -383,8 +383,8 @@
     },
     {
       "path": "src/engine.js",
-      "bytes": 51617,
-      "sha256": "75710017f4f6568fec53baf2fce28016d42f0880d4ff66a32f6b1ddc562d9e1f"
+      "bytes": 52218,
+      "sha256": "d57655befe4da72be9c217ce691fe849e08096a32e802ccd2fce0d4aea43166d"
     },
     {
       "path": "src/scene-cache46.js",
