@@ -406,5 +406,17 @@
       "bytes": 1468,
       "sha256": "ce14436accba200fd12e05293a5978da3d3cea83968849cc82253587f9f0b816"
     }
+  ],
+  "runtimeMetadata": [
+    {
+      "path": "data/campus.runtime.json",
+      "bytes": 173243,
+      "sha256": "2e6cc2f80f7c7f8fddd9906caa90d81752b7c20b4f311c4b47fc04f899ce3e11"
+    },
+    {
+      "path": "assets/runtime/scene/manifest.runtime.json",
+      "bytes": 3045306,
+      "sha256": "497ec6330265ba0aef814a0a991fd2681cdfacc46a659da08f37326180c1ab2b"
+    }
   ]
 }
