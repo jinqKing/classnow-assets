@@ -4,17 +4,17 @@ const VERT=`#version 300 es
 precision highp float;
 layout(location=0) in vec3 aPosition;layout(location=1) in vec3 aNormal;layout(location=2) in vec2 aUV;
 layout(location=3) in mat4 iMatrix;layout(location=7) in vec4 iColor;layout(location=8) in vec4 iMeta;layout(location=9) in vec4 iUV;
-uniform mat4 uVP;uniform mat4 uLightVP;uniform mat4 uReflectionVP;uniform vec3 uPositionOffset;uniform vec3 uPositionScale;uniform float uTime;uniform float uSelected;uniform float uExplode;
+uniform mat4 uVP;uniform mat4 uLightVP;uniform mat4 uReflectionVP;uniform float uTime;uniform float uSelected;uniform float uExplode;
 out vec3 vWorld;out vec3 vNormal;out vec4 vColor;out vec2 vUV;out vec2 vSurfaceUV;out vec4 vShadow;out vec4 vReflection;
 flat out float vId;flat out float vMat;
-void main(){vec3 position=uPositionOffset+aPosition*uPositionScale;vec4 w=iMatrix*vec4(position,1.0);
- if(iMeta.z>0.5&&iMeta.z<1.5){float tip=max(0.0,position.y+.5);w.x+=sin(uTime*1.35+iMatrix[3].x*.21+iMatrix[3].z*.09)*tip*.4;w.z+=cos(uTime*.8+iMatrix[3].z*.1)*tip*.25;}
+void main(){vec4 w=iMatrix*vec4(aPosition,1.0);
+ if(iMeta.z>0.5&&iMeta.z<1.5){float tip=max(0.0,aPosition.y+.5);w.x+=sin(uTime*1.35+iMatrix[3].x*.21+iMatrix[3].z*.09)*tip*.4;w.z+=cos(uTime*.8+iMatrix[3].z*.1)*tip*.25;}
  // Unrouted ambient bicycles remain parked; do not move through walls.
  if(iMeta.z>4.5&&iMeta.z<5.5){w.y+=sin(uTime*1.5+iMeta.y)*.018;}
  if(abs(iMeta.y-uSelected)<.1&&uSelected>.5){w.y+=uExplode*iMeta.w;}
  vec3 nx=iMatrix[0].xyz,ny=iMatrix[1].xyz,nz=iMatrix[2].xyz;
  vNormal=normalize(nx*aNormal.x/dot(nx,nx)+ny*aNormal.y/dot(ny,ny)+nz*aNormal.z/dot(nz,nz));
- vec3 metric=position*vec3(length(nx),length(ny),length(nz));
+ vec3 metric=aPosition*vec3(length(nx),length(ny),length(nz));
  vec3 an=abs(aNormal);vSurfaceUV=an.y>.55?metric.xz:(an.z>an.x?metric.xy:metric.zy);
  vWorld=w.xyz;vUV=iUV.xy+aUV*iUV.zw;vColor=iColor;vId=iMeta.y;vMat=iMeta.x;vShadow=uLightVP*w;vReflection=uReflectionVP*w;gl_Position=uVP*w;
 }`;
@@ -280,7 +280,7 @@ class Engine{
   if(visible)stream.data.set(visible.subarray(0,count*28),offset);stream.used=next;
   if(!c){
    c={vao:g.createVertexArray(),offset:-1};bucket.passes.set(pass,c);g.bindVertexArray(c.vao);g.bindBuffer(g.ARRAY_BUFFER,bucket.resource.vertexBuffer);
-   if(bucket.resource.vertexFormat==='q16n16h16'){g.enableVertexAttribArray(0);g.vertexAttribPointer(0,3,g.UNSIGNED_SHORT,true,16,0);g.enableVertexAttribArray(1);g.vertexAttribPointer(1,3,g.SHORT,true,16,6);g.enableVertexAttribArray(2);g.vertexAttribPointer(2,2,g.HALF_FLOAT,false,16,12);}else{for(const[a,n,offset]of[[0,3,0],[1,3,12],[2,2,24]]){g.enableVertexAttribArray(a);g.vertexAttribPointer(a,n,g.FLOAT,false,32,offset);}}
+   for(const[a,n,offset]of[[0,3,0],[1,3,12],[2,2,24]]){g.enableVertexAttribArray(a);g.vertexAttribPointer(a,n,g.FLOAT,false,32,offset);}
    if(bucket.resource.indexBuffer)g.bindBuffer(g.ELEMENT_ARRAY_BUFFER,bucket.resource.indexBuffer);
    for(let a=3;a<=9;a++){g.enableVertexAttribArray(a);g.vertexAttribDivisor(a,1);}
   }
@@ -374,7 +374,6 @@ class Engine{
     this.sampler(glass,'uShadowMap',0,this.shadowTarget.tex);this.sampler(glass,'uReflectionMap',1,pass===3?this.dummy:this.reflectTarget.tex);this.sampler(glass,'uAtlas',2,this.atlas||this.dummy);this.sampler(glass,'uMaterials',3,this.materials||this.dummy);
     g.enable(g.BLEND);g.blendFunc(g.SRC_ALPHA,g.ONE_MINUS_SRC_ALPHA);g.depthMask(false);blending=true;
    }
-   const vertexProgram=blending?this.glass:p;this.uniform(vertexProgram,'uPositionOffset',b.resource.positionOffset||[0,0,0]);this.uniform(vertexProgram,'uPositionScale',b.resource.positionScale||[1,1,1]);
    g.bindVertexArray(record.vao);
    if(ranges){for(const[first,count]of ranges){if(b.resource.indexBuffer)g.drawElementsInstanced(g.TRIANGLES,count,b.resource.indexType==='uint16'?g.UNSIGNED_SHORT:g.UNSIGNED_INT,first*(b.resource.indexType==='uint16'?2:4),record.count);else g.drawArraysInstanced(g.TRIANGLES,first,count,record.count);calls++;}}
    else{if(b.resource.indexBuffer)g.drawElementsInstanced(g.TRIANGLES,b.vertexCount,b.resource.indexType==='uint16'?g.UNSIGNED_SHORT:g.UNSIGNED_INT,0,record.count);else g.drawArraysInstanced(g.TRIANGLES,0,b.vertexCount,record.count);calls++;}

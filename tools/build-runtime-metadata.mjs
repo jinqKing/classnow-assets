@@ -27,8 +27,13 @@ function runtimeFeature(feature){
 function runtimeMesh(mesh){
   const output={
     vertexCount:mesh.vertexCount,
-    buffer:{chunk:mesh.buffer.chunk,offset:mesh.buffer.offset,length:mesh.buffer.length},
+    buffer:{chunk:mesh.buffer.chunk,offset:mesh.buffer.offset},
   };
+  if(mesh.buffer.length!==undefined)output.buffer.length=mesh.buffer.length;
+  if(mesh.buffer.byteLength!==undefined)output.buffer.byteLength=mesh.buffer.byteLength;
+  if(mesh.vertexFormat)output.vertexFormat=mesh.vertexFormat;
+  if(mesh.positionOffset)output.positionOffset=mesh.positionOffset;
+  if(mesh.positionScale)output.positionScale=mesh.positionScale;
   if(mesh.detailWidth)output.detailWidth=mesh.detailWidth;
   if(mesh.indexType)output.indexType=mesh.indexType;
   if(mesh.ranges)output.ranges=mesh.ranges;

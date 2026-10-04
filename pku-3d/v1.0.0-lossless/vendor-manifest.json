@@ -1,0 +1,422 @@
+{
+  "schema": 1,
+  "generatedFor": "cike",
+  "repo": "sldyns/PKU-3D",
+  "version": "1.0.0",
+  "sceneVersion": "46",
+  "sourceCommit": "637671248234062f81c510fd3a510e3266a392f6",
+  "publishedCommit": "828cd7b9da9221a93b6cb34067f22bae84f635bb",
+  "sceneSourceHash": "823713d613ea3c0ebaa613da1aa8591bb03cf04300a5096c33ed13887e158a10",
+  "sceneCompressedBytes": 71275181,
+  "runtimeAssets": [
+    {
+      "path": "assets/materials-display.jpg",
+      "bytes": 1128984,
+      "sha256": "6aa66bf6b63e7cc43c659e47d40f01541427924b4dd49aa73d0279c7c9f7de01"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-0091c00202dc5096d0eaf04f.bin.gz",
+      "bytes": 953785,
+      "sha256": "0091c00202dc5096d0eaf04fe0aee407cf5441c67938ac7dd4edb9d4fa8f8895"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-0b5386eeb26f15fb618db3be.bin.gz",
+      "bytes": 1380726,
+      "sha256": "0b5386eeb26f15fb618db3be5c9276549affd6da381b78ac2d856dd60cd7b5de"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-0e0f869c5a69d2509ee3ca6c.bin.gz",
+      "bytes": 84,
+      "sha256": "0e0f869c5a69d2509ee3ca6c41501bb47a0d1ee2d715e092a31a24fe9b7db49c"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-0f4a7f503e2655313e866024.bin.gz",
+      "bytes": 822795,
+      "sha256": "0f4a7f503e2655313e86602495d6d0b0c593dd353f6c742642dd1103e22aaf8b"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-10e90c9759e6fad2e13dc9ce.bin.gz",
+      "bytes": 814100,
+      "sha256": "10e90c9759e6fad2e13dc9ce59abb8adc6d853f533834fae5f3d7a3015e387d3"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-1145e21c6adada4b6709b56c.bin.gz",
+      "bytes": 261703,
+      "sha256": "1145e21c6adada4b6709b56c151d727ba548ea2fad2b780d3d26c372aa4c4197"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-135f05618ebc2fd6e9cc81ed.bin.gz",
+      "bytes": 1487115,
+      "sha256": "135f05618ebc2fd6e9cc81ed2cf31954ef935bc884a719076a2a05e2df03cd00"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-17101b6cb8bc346daba5a410.bin.gz",
+      "bytes": 820163,
+      "sha256": "17101b6cb8bc346daba5a410681cfc0b026ccfe091ead300b6d491ce8617460d"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-18e09567d3e0e4ffe542d9c0.bin.gz",
+      "bytes": 436793,
+      "sha256": "18e09567d3e0e4ffe542d9c073fa9e9cd1c0ed3464898592b4c5776bed43bf5e"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-1b34c380a4f588721cdb79bd.bin.gz",
+      "bytes": 468188,
+      "sha256": "1b34c380a4f588721cdb79bdb842226d6a4b6a504d560d4ceb08970bbaf5b61b"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-200e7f5badeef0d717cbd631.bin.gz",
+      "bytes": 1012890,
+      "sha256": "200e7f5badeef0d717cbd63197399b5b02e5611ed741b61b60fdaac0bb044f42"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-2310a9e5323e328c7d2c528c.bin.gz",
+      "bytes": 894938,
+      "sha256": "2310a9e5323e328c7d2c528c51594ac0685b922f79314d5d552a79bcdaa05319"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-25d60f9bc300e940923c3974.bin.gz",
+      "bytes": 1013956,
+      "sha256": "25d60f9bc300e940923c397431cd3512db7e959f6face9d2f08e7eed53c12772"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-25f79cb6dacabda1dfdd9c6e.bin.gz",
+      "bytes": 851945,
+      "sha256": "25f79cb6dacabda1dfdd9c6eb309ca5013d1ea270056e24513693670ce854497"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-28d2c46f6682df97da280078.bin.gz",
+      "bytes": 853432,
+      "sha256": "28d2c46f6682df97da28007807babe5e2f4af0ab559e266342664c58f8a3aec7"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-2ef72d4d64b4e182c92643cd.bin.gz",
+      "bytes": 1264920,
+      "sha256": "2ef72d4d64b4e182c92643cd7633e30f4e4aec64c9f7c4eed62cac74fbc73a01"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-326735bc88dfc6b44db5a9fd.bin.gz",
+      "bytes": 716730,
+      "sha256": "326735bc88dfc6b44db5a9fdd540d13bea43643204d91bd436ab33444a36d299"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-3972b53963ce1e3cd6a2a901.bin.gz",
+      "bytes": 1417930,
+      "sha256": "3972b53963ce1e3cd6a2a9016b76b4ab1546d7cf8a51f9ff4ded7d15915ba70b"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-3a946397bfda4e78a229df17.bin.gz",
+      "bytes": 1362995,
+      "sha256": "3a946397bfda4e78a229df17cc8fb2b5b3aee28b49691360d6dc7acc9f5c8e26"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-3b3299d3f2a831342946ce78.bin.gz",
+      "bytes": 146076,
+      "sha256": "3b3299d3f2a831342946ce78cdc03a410732ec38d3ff1eaa66320102a8f7512e"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-3b4ca4c622aa71ec44b1baef.bin.gz",
+      "bytes": 892432,
+      "sha256": "3b4ca4c622aa71ec44b1baef3508da653f3b5354fbe0aa7d50c9ef67cb537437"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-3d2d4cbcf6b2c8c26c33a57d.bin.gz",
+      "bytes": 83713,
+      "sha256": "3d2d4cbcf6b2c8c26c33a57d2c98e2605bf58e12d54b559800e846a06a5882f2"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-40183e951b35f82a00b6a865.bin.gz",
+      "bytes": 301587,
+      "sha256": "40183e951b35f82a00b6a865289a9d99f7e08bea013422c7e8d5516ebbe41a0a"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-41325e4dc6315564a4dbea5d.bin.gz",
+      "bytes": 961996,
+      "sha256": "41325e4dc6315564a4dbea5d978e0a7de735f67c66ec60e87c7f5bed0814527e"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-45b1331196fd78c5c86a0be4.bin.gz",
+      "bytes": 928570,
+      "sha256": "45b1331196fd78c5c86a0be49b055c136416e4c6df86693a80f8563cf0229c03"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-4637b3494bd70b4fdd9e0cd8.bin.gz",
+      "bytes": 1929055,
+      "sha256": "4637b3494bd70b4fdd9e0cd8a39ff096507b4e68eca12884f1953cea60ccdba1"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-4a18e3b15f0223fbcfd0bb03.bin.gz",
+      "bytes": 1533732,
+      "sha256": "4a18e3b15f0223fbcfd0bb034d912e811004a72383a02a97966da55d147e5652"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-4e54a22aeaecafc83e0b47c0.bin.gz",
+      "bytes": 2028741,
+      "sha256": "4e54a22aeaecafc83e0b47c06a6e4000abfa4405ebc73d40fd531e121b66e2f1"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-531d68a736848ab469bac5ee.bin.gz",
+      "bytes": 818135,
+      "sha256": "531d68a736848ab469bac5eeea151a187c099ec19619c0f969fcf9e80b57dbfb"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-5327a2b50cc05a061dbaafda.bin.gz",
+      "bytes": 760813,
+      "sha256": "5327a2b50cc05a061dbaafdade8b22b169f413711eb8b06e8ba8ff8dede6ec7c"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-5ca5c0cd9c6b97d901e12b41.bin.gz",
+      "bytes": 807159,
+      "sha256": "5ca5c0cd9c6b97d901e12b416cc98b4d80772b403a19d9f8e60de0e361e1efd8"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-5fd07ec448c9609d4035f1cf.bin.gz",
+      "bytes": 1831797,
+      "sha256": "5fd07ec448c9609d4035f1cf39765b1b49f911dd7d955f0288f0c0a61e1c843e"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-6fcb6168d246f6922afb7e6b.bin.gz",
+      "bytes": 1273405,
+      "sha256": "6fcb6168d246f6922afb7e6bb05ab10ff52b6186fd4659134b25780a0725cfd6"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-7ca68cab30268b332ba9452e.bin.gz",
+      "bytes": 963362,
+      "sha256": "7ca68cab30268b332ba9452e99ed8a1a3cc1542ad1f626b590ce6ab59dc868a9"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-8b646751aa88a580e22add05.bin.gz",
+      "bytes": 1998960,
+      "sha256": "8b646751aa88a580e22add059b277fe92fbdb21f9c20b212b04e826f78117fad"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-8dbb42491bc086e12164616d.bin.gz",
+      "bytes": 1427177,
+      "sha256": "8dbb42491bc086e12164616dae2c1dcb0bbced42aa606baa632736c0ad50c6ad"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-938f6ec9e523a18550ea6fb0.bin.gz",
+      "bytes": 1696758,
+      "sha256": "938f6ec9e523a18550ea6fb04ad2834cf504bde0747527c1ae0513ede50b7ac5"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-94c1741fbbf1a68fa4bc80a8.bin.gz",
+      "bytes": 1502004,
+      "sha256": "94c1741fbbf1a68fa4bc80a8db8a3e7c0975f5de5520b55f4045a2b74eb7f7b8"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-9635d85e56adb05ef8302580.bin.gz",
+      "bytes": 1533838,
+      "sha256": "9635d85e56adb05ef8302580f738016db6e948a7ca08d55f2be45d47658ed00c"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-9a88be07f24c9facfc9234bb.bin.gz",
+      "bytes": 1348605,
+      "sha256": "9a88be07f24c9facfc9234bbc832fbe7927c3f4eb8d67081398e01368e7bfffb"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-9b4a0303521fa3924645607c.bin.gz",
+      "bytes": 1172100,
+      "sha256": "9b4a0303521fa3924645607ca74c28cb9dba7607a162466180e36929f5e90b6d"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-9bb433cd1faf045c62f74e5f.bin.gz",
+      "bytes": 1666638,
+      "sha256": "9bb433cd1faf045c62f74e5fc9e598343a1051badd3df1ed25db4244408b0e09"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-9bfde56cd716c393c24649a3.bin.gz",
+      "bytes": 1327563,
+      "sha256": "9bfde56cd716c393c24649a3bc56f3a454e5bb5fd37219701457eb09658cf658"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-9f563cc4ba22e1c7acc5261f.bin.gz",
+      "bytes": 1664644,
+      "sha256": "9f563cc4ba22e1c7acc5261f5ff544ca2a8f44f6b5aa945113f9e08aab423d99"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-9ff2ae42d0974de4c66ffeb5.bin.gz",
+      "bytes": 2111125,
+      "sha256": "9ff2ae42d0974de4c66ffeb5c9ebdf5a537a981f393b0e6c5e594e6ff9343e4e"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-a021684157c06822e19ff4da.bin.gz",
+      "bytes": 926948,
+      "sha256": "a021684157c06822e19ff4da155f74be233452745c591aa24841e7317ce3e24b"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-a060e8d8b6f64220a4727605.bin.gz",
+      "bytes": 1070523,
+      "sha256": "a060e8d8b6f64220a4727605828f7a861b6ea541e57885dbf22e105bc171b9db"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-a7bae33f31373f4b97846b25.bin.gz",
+      "bytes": 1029180,
+      "sha256": "a7bae33f31373f4b97846b25d499c4275bfe4c7512defb2ae4f2b6762041d3d1"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-a7c2b687156bbd2c7030798c.bin.gz",
+      "bytes": 428753,
+      "sha256": "a7c2b687156bbd2c7030798c95861154830f4f4d80c5222b4f4e0e02675fdb9a"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-a85143a717ae419d8efcfa0e.bin.gz",
+      "bytes": 814194,
+      "sha256": "a85143a717ae419d8efcfa0e59bc0bec8452c233bc4eec99a9864877dc031619"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-a9b95bcdb7f2fbdb366f7457.bin.gz",
+      "bytes": 447054,
+      "sha256": "a9b95bcdb7f2fbdb366f7457d8201104708c999aa3139f0e0e0b93daa217014f"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-aa221e1651a9823c174e24bf.bin.gz",
+      "bytes": 1332943,
+      "sha256": "aa221e1651a9823c174e24bfeb0722be7dfc0ae124e25207792cc9013c5d1d47"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-b09e3307a1af6e5040dd15d2.bin.gz",
+      "bytes": 1131023,
+      "sha256": "b09e3307a1af6e5040dd15d2188940887a45e3ad43793b4243546bb312d85764"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-b146286f19545a5294e362f3.bin.gz",
+      "bytes": 644051,
+      "sha256": "b146286f19545a5294e362f36920ecdbebf25f2a8e14456860d2907a938ae833"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-b40bcdcdba810589ab408e49.bin.gz",
+      "bytes": 979100,
+      "sha256": "b40bcdcdba810589ab408e4996797330a0a44f8b0bb6d0a496ff33131e614c94"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-b531f0199b2713781089b759.bin.gz",
+      "bytes": 2416550,
+      "sha256": "b531f0199b2713781089b759be30586cff31aa4554d9967c5dff91ed69451adc"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-b6eedd3ea74fd4a9cb0b72e9.bin.gz",
+      "bytes": 810142,
+      "sha256": "b6eedd3ea74fd4a9cb0b72e9830619f94a305ce4051302584bc14b4ceaf34bc7"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-bab4bda5b1843d3dd21b4b97.bin.gz",
+      "bytes": 799629,
+      "sha256": "bab4bda5b1843d3dd21b4b974ba5d0ad41c492dcad28ae85997fe32c5ce0707d"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-bcb5e91c04c85fb74ed9db72.bin.gz",
+      "bytes": 599445,
+      "sha256": "bcb5e91c04c85fb74ed9db72d8be009d157af13da6c0d86ebe0297f19543fa4f"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-c023e52bcee7367c9a080673.bin.gz",
+      "bytes": 339274,
+      "sha256": "c023e52bcee7367c9a080673e43c8a6bc50cc0567aec005d0a20763c4f13b738"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-c0ad09122e656360b731bf48.bin.gz",
+      "bytes": 1295677,
+      "sha256": "c0ad09122e656360b731bf4826d28e6ab5a984ce1de3e84faf642e980a433b0c"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-ca224173d266ee544276fff3.bin.gz",
+      "bytes": 994603,
+      "sha256": "ca224173d266ee544276fff313a2bc4b0a436f8e9c1b6b470c5aec29f98ac1d8"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-cd4b07a1651ea96753031778.bin.gz",
+      "bytes": 662595,
+      "sha256": "cd4b07a1651ea967530317780734062b1145f637c5db88618711cd09c7622dc0"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-ce0308e31c869fa17ed82073.bin.gz",
+      "bytes": 2325746,
+      "sha256": "ce0308e31c869fa17ed8207375cb126818c550a9ea95fd3a3b263bc7ae38dd4d"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-d0ce92604a502309ec04e0bc.bin.gz",
+      "bytes": 867281,
+      "sha256": "d0ce92604a502309ec04e0bca63794bc8e73c7b874991a4c2121b7f886836d40"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-efce0e907bf75b5b14602ae1.bin.gz",
+      "bytes": 1494076,
+      "sha256": "efce0e907bf75b5b14602ae174355abef64939802c537af12855f4770d17e8d9"
+    },
+    {
+      "path": "assets/runtime/scene/chunk-f4942af1a6d0337bd3e1d086.bin.gz",
+      "bytes": 321221,
+      "sha256": "f4942af1a6d0337bd3e1d0868a033efd44e380b45b577a961418366b43670fa5"
+    },
+    {
+      "path": "assets/runtime/scene/manifest.json",
+      "bytes": 6474396,
+      "sha256": "fba6276837978086683b94672aa65c7c4ae68c156bea976aa292cf37a6fa7ac4"
+    },
+    {
+      "path": "assets/runtime/scene/sign-atlas-d2f9933910223242a0adabd5.png",
+      "bytes": 915861,
+      "sha256": "d2f9933910223242a0adabd5490ba763695eb0c4ffd04869b82370984ef081fa"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "src/math.js",
+      "bytes": 3179,
+      "sha256": "be573310508c415ff704a913f752439c73b26e3360e42b8ae44ccfc4ccb2d8f1"
+    },
+    {
+      "path": "src/materials.js",
+      "bytes": 135,
+      "sha256": "6dc6a59f2fc3266b43442f9fd63a7599ce92b55ee5e4f0dd4bbecc548b76e47b"
+    },
+    {
+      "path": "src/visibility.js",
+      "bytes": 7063,
+      "sha256": "65302ad88beb82bfc34bc953ed0a84643b746addc8cdec5446467d7fff767329"
+    },
+    {
+      "path": "src/atmosphere.js",
+      "bytes": 679,
+      "sha256": "718ee981233d96a3ba7b19b0aa13fabb7dfeab82e2df8ecdd43aaae1bc51a1c0"
+    },
+    {
+      "path": "src/engine.js",
+      "bytes": 52218,
+      "sha256": "d57655befe4da72be9c217ce691fe849e08096a32e802ccd2fce0d4aea43166d"
+    },
+    {
+      "path": "src/scene-cache46.js",
+      "bytes": 6814,
+      "sha256": "62711683ef9440c874cd06fe2bafb78b47e31ef165fec8510c116057917fa529"
+    },
+    {
+      "path": "data/campus.json",
+      "bytes": 1718638,
+      "sha256": "7dcdb386442e93f8f57c0a94b913d53af67397141fd2846014b20c4e29e2f759"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1076,
+      "sha256": "ac7b365d6a423a9c974a80780fead15f24acd5ac8ce05a99ec3776dbcdb9e6ee"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 1468,
+      "sha256": "ce14436accba200fd12e05293a5978da3d3cea83968849cc82253587f9f0b816"
+    }
+  ],
+  "runtimeMetadata": [
+    {
+      "path": "data/campus.runtime.json",
+      "bytes": 173243,
+      "sha256": "2e6cc2f80f7c7f8fddd9906caa90d81752b7c20b4f311c4b47fc04f899ce3e11"
+    },
+    {
+      "path": "assets/runtime/scene/manifest.runtime.json",
+      "bytes": 3045306,
+      "sha256": "497ec6330265ba0aef814a0a991fd2681cdfacc46a659da08f37326180c1ab2b"
+    }
+  ]
+}
